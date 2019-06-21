@@ -7,7 +7,7 @@ void setup() {
 
   myservo.attach(9);  // The servo is attached to pin number 9
   Serial.begin(9600); // Initialising serial communucation 
-  myservo.write(25);  // Writing the initial beam offset 
+  myservo.write(30);  // Writing the initial beam offset 
 }
 
 void loop()
